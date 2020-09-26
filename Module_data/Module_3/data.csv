@@ -1,0 +1,11 @@
+Name,Age,Gender,BMI,Smoker,Fasted,Caffeine Free,Included?
+John,19,m,22,n,y,y,y
+Susie,20,f,18,n,y,y,y
+Alex,21,m,24,n,y,y,y
+Zoey,21,f,25,n,y,y,y
+Joe,22,m,19,n,y,y,y
+Chad,23,m,20.5,n,y,y,y
+Sam,19,m,21.5,n,y,y,y
+Josie,23,f,22,n,y,y,y
+Henry,24,m,23,n,y,y,y
+Elise,27,f,30,n,n,y,n

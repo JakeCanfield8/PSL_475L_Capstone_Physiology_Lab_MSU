@@ -1,0 +1,99 @@
+Heart rate,Baseline,Intervention
+John,56,92
+Susie,54,86
+Alex,50,70
+Zoey,65,87
+Joe,70,100
+Chad,65,95
+Sam,67,78
+Josie,45,56
+Henry,60,65
+average,59.11,81.00
+N,9.00,9.00
+Stdev,8.43,14.79
+SEM,2.81,4.93
+T test,0.00032,
+,Paired T-test,
+
+,If using an unpaired t-test use this formula instead:,
+,0.00139,
+,Condition A,Condition B,Condition C,,,,,,
+John,10,25,50,,,,,,
+Susie,11,35,55,,,,,,
+Alex,10,45,53,,,,,,
+Zoey,9,30,51,,,,,,
+Joe,10,40,52,,,,,,
+Chad,12,30,50,,,,,,
+Sam,15,32,60,,,,,,
+Josie,8,33,65,,,,,,
+Henry,10,27,61,,,,,,
+average,10.56,33.00,55.22,,,,,,
+N,9.00,9.00,9.00,,,,,,
+Stdev,2.01,6.28,5.47,,,,,,
+SEM,0.67,2.09,1.82,,,,,,
+
+Use Vasser Stats and the instructions provided by Dr Wehrwein to run one or two way tests on your own.  Do not use excel for ANOVA. ,,,,,,,,,
+Subject,Condition,Time (in),Blood glucose,,
+John,control,0,90,,***This is only if you need Dr Wehrwein to run you stats due to limitations of the free vasser stats software.
+John,control,20,100,,
+John,control,40,95,,
+John,control,60,92,,
+John,sugar,0,90,,
+John,sugar,20,180,,
+John,sugar,40,150,,
+John,sugar,60,130,,
+Zoey,control,0,85,,
+Zoey,control,20,95,,
+Zoey,control,40,90,,
+Zoey,control,60,85,,
+Zoey,sugar,0,95,,
+Zoey,sugar,20,200,,
+Zoey,sugar,40,160,,
+Zoey,sugar,60,140,,
+Noah,control,0,90,,
+Noah,control,20,95,,
+Noah,control,40,95,,
+Noah,control,60,92,,
+Noah,sugar,0,95,,
+Noah,sugar,20,150,,
+Noah,sugar,40,130,,
+Noah,sugar,60,100,,
+Heart rate,Baseline,Intervention,% change
+John,56,92,64.3
+Susie,54,86,59.3
+Alex,50,70,40.0
+Zoey,65,87,33.8
+Joe,70,100,42.9
+Chad,65,95,46.2
+Sam,67,78,16.4
+Josie,45,56,24.4
+Henry,60,65,8.3
+average,59.11,81.00,37.3
+Does height impact blood pressure,,,
+,Height (cm),Systolic BP mmHg),
+John,174,180,
+Susie,159,105,
+Alex,177,165,
+Zoey,155,110,
+Joe,180,200,
+Chad,185,130,
+Sam,160,140,
+Josie,150,110,
+Henry,174,135,
+average,168.22,141.67,
+
+
+
+,,,"A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0)."
+,,,"R-squared is a statistical measure of how close the data are to the fitted regression line; In general, the higher the R-squared, the better the model fits your data. "
+,age,gender,BMI,smoker,fasted,Caffeine Free,Included? 
+John,19,m,22,n,y,y,y
+Susie,20,f,18,n,y,y,y
+Alex,21,m,24,n,y,y,y
+Zoey,21,f,25,n,y,y,y
+Joe,22,m,19,n,y,y,y
+Chad,23,m,20.5,n,y,y,y
+Sam,19,m,21.5,n,y,y,y
+Josie,23,f,22,n,y,y,y
+Henry,24,m,23,n,y,y,y
+Elise,27,f,30,n,NO,y,NO
